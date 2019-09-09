@@ -4,20 +4,22 @@ import React from "react";
 import rigoImage from "../../img/rigo-baby.jpg";
 import { Navbar } from "./Navbar.js";
 import { Jumbotron } from "./Jumbotron.js";
+//import { Card } from "./Card.js";
 
 //create your first component
 export class Home extends React.Component {
 	render() {
 		return (
-			<div className="container-fluid">
-				<div className="row">
-					<div className="col-md-12">
-						<Navbar />
-					</div>
+			<div>
+				<div>
+					<Navbar />
 				</div>
-				<div className="row">
-					<div className="col-md-8">
-						<Jumbotron />
+
+				<div className="container">
+					<div className="row">
+						<div className="col-md-12" id="jumbo">
+							<Jumbotron />
+						</div>
 					</div>
 				</div>
 			</div>
