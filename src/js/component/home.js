@@ -4,7 +4,7 @@ import React from "react";
 import rigoImage from "../../img/rigo-baby.jpg";
 import { Navbar } from "./Navbar.js";
 import { Jumbotron } from "./Jumbotron.js";
-//import { Card } from "./Card.js";
+import { Mumbo } from "./Mumbo.js";
 
 //create your first component
 export class Home extends React.Component {
@@ -19,6 +19,20 @@ export class Home extends React.Component {
 					<div className="row">
 						<div className="col-md-12" id="jumbo">
 							<Jumbotron />
+						</div>
+					</div>
+					<div className="row">
+						<div>
+							<Mumbo />
+						</div>
+						<div>
+							<Mumbo />
+						</div>
+						<div>
+							<Mumbo />
+						</div>
+						<div>
+							<Mumbo />
 						</div>
 					</div>
 				</div>
