@@ -21,7 +21,7 @@ export class Home extends React.Component {
 							<Jumbotron />
 						</div>
 					</div>
-					<div className="row">
+					<div className="row text-center">
 						<div className="col-md-3">
 							<Card />
 						</div>
