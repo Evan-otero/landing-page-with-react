@@ -23,16 +23,16 @@ export class Home extends React.Component {
 					</div>
 					<div className="row text-center">
 						<div className="col-md-3">
-							<Card />
+							<Card content="alpha" echo="foxtrot" />
 						</div>
 						<div className="col-md-3">
-							<Card />
+							<Card content="bravo" echo="golf" />
 						</div>
 						<div className="col-md-3">
-							<Card />
+							<Card echo="india" />
 						</div>
 						<div className="col-md-3">
-							<Card />
+							<Card content="delta" echo="juliet" />
 						</div>
 					</div>
 				</div>
